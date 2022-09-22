@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+  }
+  
+  body {
+      background: url(imagenes/megan.gif);
+  }
+
+  h1 {
+    color: rgb(235, 235, 249);
+  }
+  
+  .main {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: rgb(17, 115, 66);
+  }
+  
+  .titulo {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .box {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    box-shadow: 2px 2px 2px 1px rgb(230, 230, 235);
+    background-color: rgba(7, 4, 4, 0.521);
+    border-radius: 0.5em;
+    width: 30vw;
+    height: auto;
+  }
+  
+  .btn {
+    border: 0;
+    color: rgb(232, 232, 240);
+    font-weight: bold;
+    background-color:rgba(10, 7, 7, 0.911);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0.5em;
+  }
+  
+  .text-input {
+    border-radius: 0.5em;
+    border: 1px solid rgba(10, 9, 9, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 100%;
+    height: 80px;
+  }
+  
+  footer{
+    text-align: center;
+    padding: 40px;
+    color: rgb(232, 232, 244);
+    font-size: x-large;
+  }
+  
